@@ -3,17 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c483cc1a-1f04-4c5d-89c0-e24e7cb06049" name="Default" comment="models relationship">
       <change beforePath="$PROJECT_DIR$/.idea/cookbook_and_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cookbook_and_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/02-Python概述.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/02-Python概述.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/03-字符串+变量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/03-字符串+变量.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/04-分支循环.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/04-分支循环.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/05-while-函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/05-while-函数.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/06-函数参数和文档.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/06-函数参数和文档.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/07-函数作用域和集合列表字典元祖.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/07-函数作用域和集合列表字典元祖.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/08-内置数据结构.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/08-内置数据结构.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/09-内置结构listsetdicttuple.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/09-内置结构listsetdicttuple.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-python基础/10-内置数据结构listdictset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1-python基础/10-内置数据结构listdictset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-常用模块.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/06-常用模块.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-函数式编程.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/07-函数式编程.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-LOG/tulingxueyuan.log" beforeDir="false" afterPath="$PROJECT_DIR$/10-LOG/tulingxueyuan.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-多线程/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-多线程/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-协程/协程.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/13-协程/协程.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-格式化文件存储/note-xml.md" beforeDir="false" afterPath="$PROJECT_DIR$/15-格式化文件存储/note-xml.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-格式化文件存储/studetn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/15-格式化文件存储/student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-高级-包管理/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/2-高级-包管理/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-异常处理.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3-异常处理.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/持久化-文件.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/持久化-文件.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/高级函数补充.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/高级函数补充.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="34bbd931-246d-4018-ae58-e26c7b37f891" />
   <component name="ProjectId" id="1bQ9ja2cCXPLcd207dra58KQZTx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -90,18 +92,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/11-AirPlane/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01">
-    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.v04">
+    <configuration name="19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cookbook_and_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +113,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-python基础/2-OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12-多线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-python基础/2-OOP/01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12-多线程/19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="v01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cookbook_and_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,13 +135,79 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18-DRF/DRF2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18-DRF/DRF2/manage.py" />
-      <option name="PARAMETERS" value="runserver 127.0.0.1:7852" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cookbook_and_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cookbook_and_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cookbook_and_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v04.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -147,8 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01" />
-        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.v04" />
+        <item itemvalue="Python.v03" />
+        <item itemvalue="Python.v02" />
+        <item itemvalue="Python.v01" />
+        <item itemvalue="Python.19" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +237,19 @@
       <updated>1518421253577</updated>
       <workItem from="1588553592375" duration="423000" />
       <workItem from="1588554373342" duration="4630000" />
+      <workItem from="1588680824279" duration="3000" />
+      <workItem from="1588941279486" duration="144000" />
+      <workItem from="1588941711630" duration="29000" />
+      <workItem from="1588942710843" duration="50000" />
+      <workItem from="1589849967056" duration="51000" />
+      <workItem from="1589880850905" duration="2475000" />
+      <workItem from="1589940739981" duration="4259000" />
+      <workItem from="1590024270948" duration="2562000" />
+      <workItem from="1590114005598" duration="6836000" />
+      <workItem from="1590301814862" duration="4012000" />
+      <workItem from="1590543827126" duration="2022000" />
+      <workItem from="1590627583789" duration="79000" />
+      <workItem from="1590629103818" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="By LiuYing">
       <created>1518422472646</created>
@@ -452,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541511811064</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="models relationship">
+      <created>1590629252644</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1590629252644</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,50 +559,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="models relationship" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="728" y="92" key="CommitChangelistDialog2" timestamp="1588555009765">
+    <state x="728" y="16" key="CommitChangelistDialog2" timestamp="1590629251884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588555009765" />
-    <state width="1340" height="190" key="GridCell.Tab.0.bottom" timestamp="1588563569553">
+    <state x="728" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629251884" />
+    <state x="909" y="284" key="FileChooserDialogImpl" timestamp="1588942759300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569553" />
-    <state width="1340" height="190" key="GridCell.Tab.0.center" timestamp="1588563569553">
+    <state x="909" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588942759300" />
+    <state width="1198" height="245" key="GridCell.Tab.0.bottom" timestamp="1590139997701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569553" />
-    <state width="1340" height="190" key="GridCell.Tab.0.left" timestamp="1588563569553">
+    <state width="1198" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
+    <state width="1198" height="245" key="GridCell.Tab.0.center" timestamp="1590139997701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569553" />
-    <state width="1340" height="190" key="GridCell.Tab.0.right" timestamp="1588563569553">
+    <state width="1198" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
+    <state width="1198" height="245" key="GridCell.Tab.0.left" timestamp="1590139997701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569553" />
-    <state width="1340" height="190" key="GridCell.Tab.1.bottom" timestamp="1588563569554">
+    <state width="1198" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
+    <state width="1198" height="245" key="GridCell.Tab.0.right" timestamp="1590139997701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569554" />
-    <state width="1340" height="190" key="GridCell.Tab.1.center" timestamp="1588563569554">
+    <state width="1198" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
+    <state width="1198" height="295" key="GridCell.Tab.1.bottom" timestamp="1590137752893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569554" />
-    <state width="1340" height="190" key="GridCell.Tab.1.left" timestamp="1588563569553">
+    <state width="1198" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752893" />
+    <state width="1198" height="295" key="GridCell.Tab.1.center" timestamp="1590137752892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569553" />
-    <state width="1340" height="190" key="GridCell.Tab.1.right" timestamp="1588563569554">
+    <state width="1198" height="295" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752892" />
+    <state width="1198" height="295" key="GridCell.Tab.1.left" timestamp="1590137752892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="190" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588563569554" />
-    <state x="631" y="173" key="SettingsEditor" timestamp="1588562484631">
+    <state width="1198" height="295" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752892" />
+    <state width="1198" height="295" key="GridCell.Tab.1.right" timestamp="1590137752893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588562484631" />
+    <state width="1198" height="295" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752893" />
+    <state x="631" y="157" key="SettingsEditor" timestamp="1590629131799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590629131799" />
+    <state x="789" y="203" key="Vcs.Push.Dialog.v2" timestamp="1590629274936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="203" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629274936" />
     <state x="923" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588555178362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="923" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588555178362" />
+    <state x="804" y="201" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590137151074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="804" y="201" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1590137151074" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,6 +638,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$v03.coverage" NAME="v03 Coverage Results" MODIFIED="1590137422234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$19.coverage" NAME="19 Coverage Results" MODIFIED="1590133920155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-多线程" />
+    <SUITE FILE_PATH="coverage/$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1589895707377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-LOG" />
+    <SUITE FILE_PATH="coverage/$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1590136496482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1590137739709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1590137319322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
     <SUITE FILE_PATH="coverage/$01.coverage" NAME="01 Coverage Results" MODIFIED="1588563557263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-python基础/2-OOP" />
+    <SUITE FILE_PATH="coverage/$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1589895693913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9-调试" />
   </component>
 </project>

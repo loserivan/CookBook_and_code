@@ -28,3 +28,13 @@ CRITICAL:root:This is a critical log.
 2018-04-20 21:12:19,513=====WARNING++++++This is a warning log.
 2018-04-20 21:12:19,513=====ERROR++++++This is a error log.
 2018-04-20 21:12:19,514=====CRITICAL++++++This is a critical log.
+2020-05-19 21:41:47,941=====DEBUG++++++This is a debug log.
+2020-05-19 21:41:47,942=====INFO++++++This is a info log.
+2020-05-19 21:41:47,942=====WARNING++++++This is a warning log.
+2020-05-19 21:41:47,942=====ERROR++++++This is a error log.
+2020-05-19 21:41:47,942=====CRITICAL++++++This is a critical log.
+2020-05-19 21:41:47,942=====DEBUG++++++This is a debug log.
+2020-05-19 21:41:47,942=====INFO++++++This is a info log.
+2020-05-19 21:41:47,942=====WARNING++++++This is a warning log.
+2020-05-19 21:41:47,942=====ERROR++++++This is a error log.
+2020-05-19 21:41:47,942=====CRITICAL++++++This is a critical log.
