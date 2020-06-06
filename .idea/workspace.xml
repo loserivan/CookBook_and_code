@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c483cc1a-1f04-4c5d-89c0-e24e7cb06049" name="Default" comment="models relationship">
-      <change beforePath="$PROJECT_DIR$/.idea/cookbook_and_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cookbook_and_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-常用模块.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/06-常用模块.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-函数式编程.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/07-函数式编程.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-LOG/tulingxueyuan.log" beforeDir="false" afterPath="$PROJECT_DIR$/10-LOG/tulingxueyuan.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-多线程/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-多线程/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-协程/协程.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/13-协程/协程.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-格式化文件存储/note-xml.md" beforeDir="false" afterPath="$PROJECT_DIR$/15-格式化文件存储/note-xml.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-格式化文件存储/studetn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/15-格式化文件存储/student.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-高级-包管理/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/2-高级-包管理/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-异常处理.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3-异常处理.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/持久化-文件.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/持久化-文件.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/高级函数补充.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/高级函数补充.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Tkinter项目-屏保-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Tkinter项目-屏保-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-Tkinter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/8-Tkinter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter-计算器.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter-计算器.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter项目-屏保.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter项目-屏保.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +98,8 @@
       <recent name="$PROJECT_DIR$/11-AirPlane/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.v04">
-    <configuration name="19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pb">
+    <configuration name="pb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cookbook_and_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,12 +107,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12-多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12-多线程/19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pb" />
         <item itemvalue="Python.v04" />
         <item itemvalue="Python.v03" />
         <item itemvalue="Python.v02" />
         <item itemvalue="Python.v01" />
-        <item itemvalue="Python.19" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +244,18 @@
       <workItem from="1590543827126" duration="2022000" />
       <workItem from="1590627583789" duration="79000" />
       <workItem from="1590629103818" duration="348000" />
+      <workItem from="1590629472100" duration="438000" />
+      <workItem from="1590629917825" duration="2154000" />
+      <workItem from="1590632225651" duration="1038000" />
+      <workItem from="1590633333759" duration="789000" />
+      <workItem from="1590634437603" duration="609000" />
+      <workItem from="1590635851462" duration="7000" />
+      <workItem from="1591350460717" duration="421000" />
+      <workItem from="1591351044687" duration="312000" />
+      <workItem from="1591351412971" duration="393000" />
+      <workItem from="1591352130152" duration="379000" />
+      <workItem from="1591352521031" duration="442000" />
+      <workItem from="1591406008377" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="By LiuYing">
       <created>1518422472646</created>
@@ -545,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590629252644</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="models relationship">
+      <created>1590629535107</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1590629535107</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,54 +572,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="models relationship" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="728" y="16" key="CommitChangelistDialog2" timestamp="1590629251884">
+    <state x="728" y="16" key="CommitChangelistDialog2" timestamp="1590629534565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629251884" />
+    <state x="728" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629534565" />
     <state x="909" y="284" key="FileChooserDialogImpl" timestamp="1588942759300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="909" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588942759300" />
-    <state width="1198" height="245" key="GridCell.Tab.0.bottom" timestamp="1590139997701">
+    <state width="1096" height="296" key="GridCell.Tab.0.bottom" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
-    <state width="1198" height="245" key="GridCell.Tab.0.center" timestamp="1590139997701">
+    <state width="1096" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.0.center" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
-    <state width="1198" height="245" key="GridCell.Tab.0.left" timestamp="1590139997701">
+    <state width="1096" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.0.left" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
-    <state width="1198" height="245" key="GridCell.Tab.0.right" timestamp="1590139997701">
+    <state width="1096" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.0.right" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590139997701" />
-    <state width="1198" height="295" key="GridCell.Tab.1.bottom" timestamp="1590137752893">
+    <state width="1096" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.1.bottom" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752893" />
-    <state width="1198" height="295" key="GridCell.Tab.1.center" timestamp="1590137752892">
+    <state width="1096" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.1.center" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="295" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752892" />
-    <state width="1198" height="295" key="GridCell.Tab.1.left" timestamp="1590137752892">
+    <state width="1096" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.1.left" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="295" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752892" />
-    <state width="1198" height="295" key="GridCell.Tab.1.right" timestamp="1590137752893">
+    <state width="1096" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.1.right" timestamp="1591407677238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="295" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590137752893" />
+    <state width="1096" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
     <state x="631" y="157" key="SettingsEditor" timestamp="1590629131799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590629131799" />
-    <state x="789" y="203" key="Vcs.Push.Dialog.v2" timestamp="1590629274936">
+    <state x="789" y="203" key="Vcs.Push.Dialog.v2" timestamp="1590629550131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="789" y="203" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629274936" />
+    <state x="789" y="203" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629550131" />
     <state x="923" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588555178362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -639,10 +652,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$v03.coverage" NAME="v03 Coverage Results" MODIFIED="1590137422234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$pb.coverage" NAME="pb Coverage Results" MODIFIED="1591408061485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$19.coverage" NAME="19 Coverage Results" MODIFIED="1590133920155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-多线程" />
     <SUITE FILE_PATH="coverage/$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1589895707377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-LOG" />
     <SUITE FILE_PATH="coverage/$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1590136496482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
-    <SUITE FILE_PATH="coverage/$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1590137739709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1591350519585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
     <SUITE FILE_PATH="coverage/$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1590137319322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
     <SUITE FILE_PATH="coverage/$01.coverage" NAME="01 Coverage Results" MODIFIED="1588563557263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-python基础/2-OOP" />
     <SUITE FILE_PATH="coverage/$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1589895693913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9-调试" />
