@@ -4,9 +4,7 @@
 
 '''
 
-
-from urllib import  request, error
-
+from urllib import request, error
 
 if __name__ == '__main__':
 
@@ -14,13 +12,13 @@ if __name__ == '__main__':
 
     # 使用代理步骤
     # 1. 设置代理地址
-    proxy = {'http': '120.194.18.90:81' }
+    proxy = {'http': '111.47.154.34:53281'}
     # 2. 创建ProxyHandler
     proxy_handler = request.ProxyHandler(proxy)
     # 3. 创建Opener
     opener = request.build_opener(proxy_handler)
     # 4. 安装Opener
-    request.install_opener( opener)
+    request.install_opener(opener)
 
     # 现在如果访问url，则使用代理服务器
     try:

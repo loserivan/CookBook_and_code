@@ -1,4 +1,7 @@
 # 页面解析和数据提取
+
+## 数据结构
+
 - 结构数据： 先有的结构，在谈数据
     - JSON文件
         - JSON Path
@@ -17,8 +20,9 @@
         - 正则
         - XPath
         - CSS选择器
-       
-# 正则表达式
+
+## 正则表达
+
 - 一套规则，可以在字符串文本中进行搜查替换等
 - 案例v23,re的基本使用流程
 - 案例v24，match的基本使用
@@ -32,7 +36,6 @@
 - 匹配中文
     - 中文unicode范围主要在[u4e00-u9fa5]
     - 案例v27
-    
 - 贪婪与非贪婪模式
     - 贪婪模式： 在整个表达式匹配成功的前提下，尽可能多的匹配
     - 非贪婪模式： xxxxxxxxxxxxxxxxxxxxxx, 尽可能少的匹配
@@ -42,20 +45,22 @@
         - re是 ab*
         - 贪婪模式： 结果是abbbbbb
         - 非贪婪： 结果是a
-# XML
-- XML(EXtensibleMarkupLanguage)   
--    http://www.w3school.com.cn/xml/index.asp
+
+## XML
+
+- XML(EXtensibleMarkupLanguage)
+- "http://www.w3school.com.cn/xml/index.asp"
 - 案例v28.xml
 - 概念：父节点，子节点，先辈节点，兄弟节点，后代节点
 
-# XPath
+## XPath
+
 - XPath(XML Path Language), 是一门在XML文档中查找信息的语言，
-- 官方文档： http://www.w3school.com.cn/xpath/index.asp
+- 官方文档： "http://www.w3school.com.cn/xpath/index.asp"
 - XPath开发工具
     - 开元的XPath表达式工具： XMLQuire
     - chrome插件： Xpath Helper
     - Firefox插件： XPath CHecker
-    
 - 常用路径表达式：
     - nodename: 选取此节点的所有子节点
     - /: 从根节点开始选
@@ -79,7 +84,6 @@
     - /bookstore/book[@lang="cn"]: 选取属于bookstore下叫book的,含有属性lang的值是cn的元素
     - /bookstore/book[@price < 90]: 选取属于bookstore下叫book的,含有属性price的，且值小于90的元素
     - /bookstore/book[@price < 90]/title: 选取属于bookstore下叫book的,含有属性price的，且值小于90的元素的子元素title
-    
 - 通配符
     - `*` : 任何元素节点
     - @*： 匹配任何属性节点
@@ -88,17 +92,19 @@
     - //book/tile  | //book/author : 选取book元素中的title和author元素
     - //tile | //price: 选取文档中所有的title和price元素
   
-# lxml库
+## lxml库
+
 - python的HTML/XML的解析器
-- 官方文档：   http://lxml.de/index.html
+- 官方文档："http://lxml.de/index.html"
 - 功能：
     - 解析HTML,案例v29.py
     - 文件读取，案例v30.html, v31.py
     - etree和XPath的配合使用, 案例v32.py
 
-# CSS选择器  BeautifulSoup4
+## CSS选择器  BeautifulSoup4
+
 - 现在使用BeautifulSoup4
-- http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/
+- "http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/"
 - 几个常用提取信息工具的比较：
     - 正则： 很快，不好用，不许安装
     - beautifulsoup：慢，使用简单，安装简单
@@ -116,20 +122,18 @@
         - name
         - attrs
     - 案例a34  
- 
 - NavigableString
     - 对应内容值
-  
 - BeautifulSoup
     - 表示的是一个文档的内容，大部分可以把他当做tag对象
     - 一般我们可以用soup来表示
 - Comment
-    - 特殊类型的NavagableString对象， 
+    - 特殊类型的NavagableString对象，
     - 对其输出，则内容不包括注释符号
 - 遍历文档对象
-    - contents: tag的子节点以列表的方式给出 
-    - children： 子节点以迭代器形式返回 
-    - descendants： 所子孙节点
+    - contents: tag的子节点以列表的方式给出
+    - children：子节点以迭代器形式返回
+    - descendants：所子孙节点
     - string
     - 案例34
 - 搜索文档对象
@@ -141,10 +145,9 @@
         - kewwortd参数，可以用来表示属性
         - text： 对应tag的文本值
         - 案例34
-            
 - css选择器
     - 使用soup.select, 返回一个列表
-    - 通过标签名称: soup.select("title")            
+    - 通过标签名称: soup.select("title")
     - 通过类名： soup.select(".content")
     - id查找: soup.select("#name_id")
     - 组合查找: soup.select("div #input_content")

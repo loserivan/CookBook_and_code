@@ -1,21 +1,16 @@
 from urllib import request
 
-
 if __name__ == '__main__':
-
-    url = "http://www.renren.com/965187997/profile"
+    url = "https://weibo.com/login.php#_loginLayer_1596876062675"
 
     headers = {
-        "Cookie": "anonymid=jfosp2p2-48i1hh; depovince=BJ; _r01_=1; jebe_key=f2e12094-303b-4171-900f-ed304e5a5ba1%7C7629e5c8e0f7f334244eb5436ef05a2c%7C1523070488659%7C1%7C1523070515670; wp_fold=0; jebecookies=a201c15f-9745-40fc-9d32-7112f8cf849f|||||; ick_login=cbfe66e0-743c-46a4-a956-7d692056361d; _de=420A8DC764CD1624FC7C8526DA9A3A25; p=db36f5ff987e7e58c901f6194a22b7007; first_login_flag=1; ln_uact=13119144223; ln_hurl=http://head.xiaonei.com/photos/0/0/men_main.gif; t=1b2976196819d4a57127f5b87ac495f77; societyguester=1b2976196819d4a57127f5b87ac495f77; id=965187997; xnsid=61e9001d; __utma=151146938.742687335.1523070758.1523070758.1523070758.1; __utmc=151146938; __utmz=151146938.1523070758.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=151146938.1.10.1523070758; ver=7.0; loginfrom=null; JSESSIONID=abcIxsy_d_tR06bwXfEkw; _urm_965187997=21"
+        "Cookie":
+        "SINAGLOBAL=2761179527884.4897.1588233477804; Ugrow-G0=1ac418838b431e81ff2d99457147068c; SUB=_2AkMocuvlf8NxqwJRmfsRymLkbIl3ygnEieKeLho-JRMxHRl-yT9jqnUftRB6A_LFCkJsDZDRi9FzRQ6h_galLNh2LOpq; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9Wh1IFL6XaWR-IMKlAeOJLlT; login_sid_t=0e630df3faeb24c3e1d2b1590bce54c1; cross_origin_proto=SSL; YF-V5-G0=8c4aa275e8793f05bfb8641c780e617b; WBStorage=42212210b087ca50|undefined; _s_tentry=passport.weibo.com; wb_view_log=1920*10801; Apache=1340047908443.1138.1596875988810; ULV=1596875988813:21:4:4:1340047908443.1138.1596875988810:1596592891806; WBtopGlobal_register_version=434eed67f50005bd"
     }
 
-
     req = request.Request(url, headers=headers)
-
     rsp = request.urlopen(req)
-
     html = rsp.read().decode()
-
 
     with open("rsp.html", "w") as f:
         f.write(html)

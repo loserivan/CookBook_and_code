@@ -3,10 +3,9 @@ from urllib import request
 使用urllib.request请求一个网页内容，并把内容打印出来
 '''
 
-
 if __name__ == '__main__':
 
-    url = "http://jobs.zhaopin.com/195435110251173.htm?ssidkey=y&ss=409&ff=03&sg=2644e782b8b143419956320b22910c91&so=1"
+    url = "https://sou.zhaopin.com/?jl=765&kw=Python&kt=3"
     # 打开相应url并把相应页面作为返回
     rsp = request.urlopen(url)
 
@@ -16,6 +15,6 @@ if __name__ == '__main__':
     print(type(html))
 
     # 如果想把bytes内容转换成字符串，需要解码
-    html = html.decode("utf-8")
+    html = html.decode('utf-8')
 
     print(html)

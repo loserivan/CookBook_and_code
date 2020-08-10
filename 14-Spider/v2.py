@@ -4,7 +4,7 @@
 
 '''
 
-import urllib
+import urllib.request
 import chardet
 
 if __name__ == '__main__':
@@ -14,11 +14,10 @@ if __name__ == '__main__':
 
     html = rsp.read()
 
-    #利用 chardet自动检测
+    # 利用 chardet自动检测
     cs = chardet.detect(html)
     print(type(cs))
     print(cs)
-
 
     # 使用get取值保证不会出错
     html = html.decode(cs.get("encoding", "utf-8"))

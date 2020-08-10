@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c483cc1a-1f04-4c5d-89c0-e24e7cb06049" name="Default" comment="models relationship">
-      <change afterPath="$PROJECT_DIR$/pb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-AirPlane/.idea/11-AirPlane.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-高级-包管理/.idea/2-高级-包管理.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Tkinter项目-屏保-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Tkinter项目-屏保-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-Tkinter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/8-Tkinter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TKinter-贪吃蛇-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/TKinter-贪吃蛇-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/rsp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v10.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v11.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v12.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v13.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v14.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v5.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v6.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v9.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tkinter-计算器.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter-计算器.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter项目-屏保.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter项目-屏保.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/pb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,17 +102,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14-Spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\课程讲义\14-Spider" />
       <recent name="$PROJECT_DIR$/11-AirPlane/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pb">
+  <component name="RunManager" selected="Python.v11">
     <configuration name="pb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cookbook_and_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,50 +129,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="v01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cookbook_and_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="v02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cookbook_and_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15-格式化文件存储" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15-格式化文件存储/v02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,13 +181,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="v11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cookbook_and_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-Spider/v11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cookbook_and_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-Spider/v12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.v11" />
+        <item itemvalue="Python.v12" />
         <item itemvalue="Python.pb" />
         <item itemvalue="Python.v04" />
         <item itemvalue="Python.v03" />
-        <item itemvalue="Python.v02" />
-        <item itemvalue="Python.v01" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +272,10 @@
       <workItem from="1591352130152" duration="379000" />
       <workItem from="1591352521031" duration="442000" />
       <workItem from="1591406008377" duration="1797000" />
+      <workItem from="1591407818305" duration="1098000" />
+      <workItem from="1591616672295" duration="1372000" />
+      <workItem from="1591668118256" duration="22000" />
+      <workItem from="1596937415833" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="By LiuYing">
       <created>1518422472646</created>
@@ -558,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590629535107</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="models relationship">
+      <created>1591408116920</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1591408116920</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,46 +599,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="models relationship" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="728" y="16" key="CommitChangelistDialog2" timestamp="1590629534565">
+    <state x="678" y="250" key="#Inspections" timestamp="1596937633841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590629534565" />
-    <state x="909" y="284" key="FileChooserDialogImpl" timestamp="1588942759300">
+    <state x="678" y="250" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1596937633841" />
+    <state x="1092" y="361" key="#Notifications" timestamp="1591617432070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="909" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588942759300" />
-    <state width="1096" height="296" key="GridCell.Tab.0.bottom" timestamp="1591407677238">
+    <state x="1092" y="361" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591617432070" />
+    <state x="728" y="16" key="CommitChangelistDialog2" timestamp="1591408116325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.0.center" timestamp="1591407677238">
+    <state x="728" y="16" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591408116325" />
+    <state x="909" y="284" key="FileChooserDialogImpl" timestamp="1591668137510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.0.left" timestamp="1591407677238">
+    <state x="909" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591668137510" />
+    <state width="1176" height="246" key="GridCell.Tab.0.bottom" timestamp="1596937894529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.0.right" timestamp="1591407677238">
+    <state width="1176" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596937894529" />
+    <state width="1176" height="246" key="GridCell.Tab.0.center" timestamp="1596937894528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.1.bottom" timestamp="1591407677238">
+    <state width="1176" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596937894528" />
+    <state width="1176" height="246" key="GridCell.Tab.0.left" timestamp="1596937894528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.1.center" timestamp="1591407677238">
+    <state width="1176" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596937894528" />
+    <state width="1176" height="246" key="GridCell.Tab.0.right" timestamp="1596937894528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.1.left" timestamp="1591407677238">
+    <state width="1176" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596937894528" />
+    <state width="1096" height="296" key="GridCell.Tab.1.bottom" timestamp="1591620434372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
-    <state width="1096" height="296" key="GridCell.Tab.1.right" timestamp="1591407677238">
+    <state width="1096" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591620434372" />
+    <state width="1096" height="296" key="GridCell.Tab.1.center" timestamp="1591620434372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1096" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591407677238" />
+    <state width="1096" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591620434372" />
+    <state width="1096" height="296" key="GridCell.Tab.1.left" timestamp="1591620434372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1096" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591620434372" />
+    <state width="1096" height="296" key="GridCell.Tab.1.right" timestamp="1591620434372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1096" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591620434372" />
     <state x="631" y="157" key="SettingsEditor" timestamp="1590629131799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -652,12 +687,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$v03.coverage" NAME="v03 Coverage Results" MODIFIED="1590137422234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
-    <SUITE FILE_PATH="coverage/$pb.coverage" NAME="pb Coverage Results" MODIFIED="1591408061485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$pb.coverage" NAME="pb Coverage Results" MODIFIED="1591616809757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$19.coverage" NAME="19 Coverage Results" MODIFIED="1590133920155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-多线程" />
     <SUITE FILE_PATH="coverage/$01__2_.coverage" NAME="01 (2) Coverage Results" MODIFIED="1589895707377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-LOG" />
     <SUITE FILE_PATH="coverage/$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1590136496482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$v12.coverage" NAME="v12 Coverage Results" MODIFIED="1596937489051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-Spider" />
     <SUITE FILE_PATH="coverage/$v04.coverage" NAME="v04 Coverage Results" MODIFIED="1591350519585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
     <SUITE FILE_PATH="coverage/$v02.coverage" NAME="v02 Coverage Results" MODIFIED="1590137319322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15-格式化文件存储" />
+    <SUITE FILE_PATH="coverage/$v11.coverage" NAME="v11 Coverage Results" MODIFIED="1596937551488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-Spider" />
     <SUITE FILE_PATH="coverage/$01.coverage" NAME="01 Coverage Results" MODIFIED="1588563557263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-python基础/2-OOP" />
     <SUITE FILE_PATH="coverage/$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1589895693913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9-调试" />
   </component>

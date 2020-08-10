@@ -6,7 +6,6 @@ class RandomBall():
     '''
     定义运动的球的类
     '''
-
     def __init__(self, canvas, scrnwidth, scrnheight):
         '''
         canvas: 画布，所有的内容都应该在画布上呈现出来，此处通过此变量传入
@@ -39,8 +38,9 @@ class RandomBall():
         # 定义颜色
         # RGB表示法：三个数字，每个数字的值是0-255之间，表示红绿蓝三个颜色的大小
         # 在某些系统中，之间用英文单词表示也可以，比如red, green
-        # 此处用lambda表达式
-        c = lambda: random.randint(0, 255)
+        def c():
+            return random.randint(0, 255)
+
         self.color = '#%02x%02x%02x' % (c(), c(), c())
 
         # 以上函数代码忘了缩进了，自行处理
@@ -63,11 +63,12 @@ class RandomBall():
         # 再有两个对角坐标的前提下，可以进行画圆
         # fill表示填充颜色
         # outline是外围边框颜色
-        self.item = self.canvas.create_oval(
-            x1, y1, x2, y2,
-            fill=self.color,
-            outline=self.color
-        )
+        self.item = self.canvas.create_oval(x1,
+                                            y1,
+                                            x2,
+                                            y2,
+                                            fill=self.color,
+                                            outline=self.color)
 
     def move_ball(self):
         # 移动球的时候，需要控制球的方向
@@ -147,6 +148,7 @@ class ScreenSaver():
         # 显示一个Button，Ｂｕｔｔｏｎ上显示事件类型，点击Ｂｕｔｔｏｎ后屏保
         # 才退出
         self.root.destroy()
+
 
 if __name__ == "__main__":
     # 启动屏保
