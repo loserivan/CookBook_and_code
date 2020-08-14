@@ -27,7 +27,7 @@ def login():
     url = "http://www.renren.com/PLogin.do"
 
     # 此键值需要从登录form的两个对应input中提取name属性
-    data = {"email": "13119144223", "password": "123456"}
+    data = {"email": "15000584396", "password": "wwy941001"}
 
     # 把数据进行编码
     data = parse.urlencode(data)
@@ -40,13 +40,13 @@ def login():
 
 
 def getHomePage():
-    url = "http://www.renren.com/965187997/profile"
+    url = "http://www.renren.com/974876148/profile"
 
     # 如果已经执行了login函数，则opener自动已经包含相应的cookie值
     rsp = opener.open(url)
 
     html = rsp.read().decode()
-    with open("rsp.html", "w") as f:
+    with open("rsp.html", "w", encoding='utf8') as f:
         f.write(html)
 
 

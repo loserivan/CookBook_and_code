@@ -7,13 +7,11 @@ python中正则模块是re
 
 '''
 
-
 import re
 
 # \d表示以数字
 # 后面+号表示这个数字可以出现一次或者多次
-s = r"\d+" # r表示后面是原生字符串，后面不需要转义
-
+s = r"\d+"  # r表示后面是原生字符串，后面不需要转义
 
 # 返回Pattern对象
 pattern = re.compile(s)
@@ -33,7 +31,6 @@ m = pattern.match("one12two2three3", 3, 10)
 print(type(m))
 # 默认匹配从头部开始，所以此次结果为None
 print(m)
-
 
 print(m.group())
 

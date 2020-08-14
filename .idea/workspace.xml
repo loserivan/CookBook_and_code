@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c483cc1a-1f04-4c5d-89c0-e24e7cb06049" name="Default" comment="models relationship">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-AirPlane/.idea/11-AirPlane.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-高级-包管理/.idea/2-高级-包管理.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TKinter-贪吃蛇-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/TKinter-贪吃蛇-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/cookie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-Spider/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/rsp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v10.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v11.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-Spider/v12.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-Spider/v13.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v14.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v5.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v6.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v9.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TKinter-贪吃蛇.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter-计算器.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter-计算器.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pb.py" beforeDir="false" afterPath="$PROJECT_DIR$/pb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v15.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v16.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v17.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v18.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/v19.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,6 +266,9 @@
       <workItem from="1591616672295" duration="1372000" />
       <workItem from="1591668118256" duration="22000" />
       <workItem from="1596937415833" duration="479000" />
+      <workItem from="1597117210111" duration="7000" />
+      <workItem from="1597134446692" duration="1000" />
+      <workItem from="1597134873833" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="By LiuYing">
       <created>1518422472646</created>

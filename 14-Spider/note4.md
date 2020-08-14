@@ -1,17 +1,17 @@
 # scrapy
-# 爬虫框架
+
+## 爬虫框架
+
 - 框架
 - 爬虫框架
-    - scrapy 
+    - scrapy
     - pyspider
     - crawley
 - scrapy框架介绍
-    - https://doc.scrapy.org/en/latest/
-    - http://scrapy-chs.readthedocs.io/zh_CN/latest/index.html
-    
+    - "https://doc.scrapy.org/en/latest/"
+    - "http://scrapy-chs.readthedocs.io/zh_CN/latest/index.html"
 - 安装
-    - 利用pip  
- 
+    - 利用pip
 - scrapy概述
     - 包含各个部件
         - ScrapyEngine： 神经中枢，大脑，核心、
@@ -21,13 +21,12 @@
         - ItemPipeline管道： 详细处理Item
         - DownloaderMiddleware下载中间件： 自定义下载的功能扩展组件
         - SpiderMiddleware爬虫中间件：对spider进行功能扩展
-        
+
 - 爬虫项目大概流程
     - 新建项目：scrapy startproject xxx
-    - 明确需要目标/产出:  编写item.py
-    - 制作爬虫 ： 地址 spider/xxspider.py
-    -  存储内容： pipelines.py,   
-    
+    - 明确需要目标/产出: 编写item.py
+    - 制作爬虫 ：地址 spider/xxspider.py
+    - 存储内容：pipelines.py,
 - ItemPipeline
     - 对应的是pipelines文件
     - 爬虫提取出数据存入item后，item中保存的数据需要进一步处理，比如清洗，去重，存储等
@@ -35,18 +34,17 @@
         - spider提取出来的item作为参数传入，同时传入的还有spider
         - 此方法必须实现
         - 必须返回一个Item对象，被丢弃的item不会被之后的pipeline处理
-    - __init__:构造函数
-        - 进行一些必要的参数初始化     
+    - __init__: 构造函数
+        - 进行一些必要的参数初始化
     - open_spider(spider):
         - spider对象被开启的时候调用
     - close_spider(spider):
-        - 当spider对象被关闭的时候调用 
+        - 当spider对象被关闭的时候调用
 - Spider
     - 对应的是文件夹spiders下的文件
     - __init__: 初始化爬虫名称，start_urls列表
-    - start_requests:生成Requests对象交给Scrapy下载并返回response
-    - parse： 根据返回的response解析出相应的item，item自动进入pipeline； 如果需要，解析出url，url自动交给
-    requests模块，一直循环下去
+    - start_requests: 生成Requests对象交给Scrapy下载并返回response
+    - parse: 根据返回的response解析出相应的item，item自动进入pipeline； 如果需要，解析出url，url自动交给requests模块，一直循环下去
     - start_request: 此方法仅能被调用一次，读取start_urls内容并启动循环过程
     - name:设置爬虫名称
     - start_urls:  设置开始第一批爬取的url
@@ -74,7 +72,7 @@
             - 每次返回结果的时候会自动调用
             - 可以有多个，按顺序调用
         - 案例代码
-        
+
                 import random
                 import base64
                 
@@ -101,8 +99,7 @@
                             request.headers['Proxy-Authorization'] = 'Basic ' + base64_userpasswd
                             request.meta['proxy'] = "http://" + proxy['ip_port']
         - 设置settings的相关代码
-        
-        
+
                 USER_AGENTS = [
                             "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR
                             3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)",
@@ -129,21 +126,19 @@
                         {'ip_port': '122.224.249.122:8088', 'user_passwd': 'user4:pass4'},
                         ]
 - 去重
-    - 为了放置爬虫陷入死循环，需要去重
+    - 为了防止爬虫陷入死循环，需要去重
     - 即在spider中的parse函数中，返回Request的时候加上dont_filter=False参数
-    
+
             myspeder(scrapy.Spider):
                 def parse(.....):
                 
                     ......
                     
                     yield  scrapy.Request(url=url, callback=self.parse, dont_filter=False)                
-       
 - 如何在scrapy使用selenium
     - 可以放入中间件中的process_request函数中
     - 在函数中调用selenium，完成爬取后返回Response
-    
-        
+
             calss MyMiddleWare(object):
                 def process_request(.....):
                     
@@ -152,30 +147,24 @@
                     driver.quit()
                     
                     return HtmlResponse(url=request.url, encoding='utf-8', body=html, request=request)
-                    
-
-            
 - 案例e16-qq招聘
     - 创建项目
     - 编写item
     - 编写spider
     - 编写pipeline
     - 设置pipeline
-     
 - 案例 e14-scrapy-baidu
     - 利用最简单的爬虫
     - 爬去百度页面
     - 关闭配置机器人协议
     - scrapy startproject baidu
     - scrapy crawl baidu
-    
 - 案例e15-meiju
     - 创建新项目
     - 分析网页，定义item
     - 编写pipeline， 确定如何处理item
     - 编写spider， 确定如何提取item
     - 可以通过增加一个单独命令文件的方式在pycharm中启动爬虫
-    
 - 案例e17-校花网
     - 创建项目
     - 编写item

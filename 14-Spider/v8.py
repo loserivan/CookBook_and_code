@@ -4,7 +4,6 @@ URLError的使用
 
 from urllib import request, error
 
-
 if __name__ == '__main__':
 
     url = "http:iiiiiiiiidu//www.baidu.com/welcome.html"
@@ -13,7 +12,7 @@ if __name__ == '__main__':
     try:
 
         req = request.Request(url)
-        rsp = request.urlopen( req )
+        rsp = request.urlopen(req)
         html = rsp.read().decode()
         print(html)
 

@@ -1,4 +1,3 @@
-
 from urllib import request, parse
 from http import cookiejar
 
@@ -19,15 +18,15 @@ opener = request.build_opener(http_handler, https_handler, cookie_handler)
 
 
 def getHomePage():
-    url = "http://www.renren.com/965187997/profile"
+    url = "http://www.renren.com/974876148/profile"
 
     # 如果已经执行了login函数，则opener自动已经包含相应的cookie值
     rsp = opener.open(url)
 
-
     html = rsp.read().decode()
-    with open("rsp.html", "w") as f:
+    with open("rsp.html", "w", encoding='utf8') as f:
         f.write(html)
+
 
 if __name__ == '__main__':
     getHomePage()

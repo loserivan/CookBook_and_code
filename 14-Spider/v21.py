@@ -1,6 +1,5 @@
 import requests
 
-
 url = "http://www.baidu.com"
 # 两种请求方式
 # 使用get请求

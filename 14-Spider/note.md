@@ -138,7 +138,7 @@
   - 存放位置不同
   - cookie不安全
   - session会保存在服务器上一定时间，会过期
-  - 单个cookie保存数据不超过4k， 很多浏览器限制一个站点最多保存20个
+  - 单个cookie保存数据不超过4k，很多浏览器限制一个站点最多保存20个
 - session的存放位置
   - 存在服务器端
   - 一般情况，session是放在内存中或者数据库中
@@ -165,7 +165,7 @@
   - handler是Handler的实例，常用参看案例代码
     - 用来处理复杂请求
 
-          # 生成 cookie的管理器
+          # 生成cookie的管理器
           cookie_handler = request.HTTPCookieProcessor(cookie)
           # 创建http请求管理器
           http_handler = request.HTTPHandler()
@@ -178,14 +178,14 @@
       - name: 名称
       - value：值
       - domain：可以访问此cookie的域名
-      - path： 可以发昂文此cookie的页面路径
+      - path：可以访问此cookie的页面路径
       - expires：过期时间
-      - size： 大小
+      - size：大小
     - Http字段
     - cookie的保存-FileCookieJar， 案例v15
     - cookie的读取， 案例v16
 - SSL
-  - SSL证书就是指遵守SSL安全套阶层协议的服务器数字证书（SercureSocketLayer)
+  - SSL证书就是指遵守SSL安全套接层协议的服务器数字证书（SercureSocketLayer)
   - 美国网景公司开发
   - CA（CertifacateAuthority)是数字证书认证中心，是发放，管理，废除数字证书的收信人的第三方机构
   - 遇到不信任的SSL证书，需要单独处理，案例v17
@@ -200,7 +200,7 @@
   - 异步请求
   - 一定会有url，请求方法，可能有数据
   - 一般使用json格式
-  - 案例，爬去豆瓣电影， 案例v20
+  - 案例，爬取豆瓣电影， 案例v20
 
 ## Requests-献给人类
 
@@ -219,7 +219,6 @@
   - 案例v22
 - post
   - rsp = requests.post(url, data=data)
-  - 参看案例23
   - date, headers要求dict类型
 - proxy
 
@@ -238,12 +237,12 @@
 
         # 可能需要使用HTTP basic Auth， 可以这样
         # 格式为  用户名:密码@代理地址：端口地址
-        proxy = { "http": "china:123456@192.168.1.123：4444"}
+        proxy = {"http": "china:123456@192.168.1.123：4444"}
         rsp = requests.get("http://baidu.com", proxies=proxy)
 - web客户端验证
   - 如果遇到web客户端验证，需要添加auth=（用户名，密码）
 
-        autu=("test1", "123456")#授权信息
+        auth = ("test1", "123456")#授权信息
         rsp = requests.get("http://www.baidu.com", auth=auth)
 - cookie
   - requests可以自动处理cookie信息
@@ -251,11 +250,10 @@
         rsp = requests.get("http://xxxxxxxxxxx")
         # 如果对方服务器给传送过来cookie信息，则可以通过反馈的cookie属性得到
         # 返回一个cookiejar实例
-        cookiejar = rsp.cookies   
-        
-        
-        #可以讲cookiejar转换成字典
-        cookiedict = requests.utils.dict_from_cookiejar(cookiejar)         
+        cookiejar = rsp.cookies
+
+        # 可以将cookiejar转换成字典
+        cookiedict = requests.utils.dict_from_cookiejar(cookiejar)
 - session
   - 跟服务器端session不是一个东东
   - 模拟一次会话，从客户端浏览器链接服务器开始，到客户端浏览器断开

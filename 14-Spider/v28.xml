@@ -9,7 +9,6 @@
         <price>23</price>
     </book>
 
-
     <book category="education">
         <title lang="en">Python is Python</title>
         <author>Food War</author>

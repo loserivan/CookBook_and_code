@@ -2,7 +2,7 @@
 
 ## 数据结构
 
-- 结构数据： 先有的结构，在谈数据
+- 结构数据： 先有的结构，再谈数据
     - JSON文件
         - JSON Path
         - 转换成Python类型进行操作（json类）
@@ -87,7 +87,7 @@
 - 通配符
     - `*` : 任何元素节点
     - @*： 匹配任何属性节点
-    - node(): 陪陪任何类型的节点
+    - node(): 匹配任何类型的节点
 - 选取多个路径
     - //book/tile  | //book/author : 选取book元素中的title和author元素
     - //tile | //price: 选取文档中所有的title和price元素

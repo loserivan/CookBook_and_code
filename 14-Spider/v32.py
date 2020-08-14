@@ -8,7 +8,7 @@ rst = html.xpath('//book')
 print(type(rst))
 print(rst)
 
-# xpath的意识是，查找带有category属性值为sport的book元素
+# xpath的意思是，查找带有category属性值为sport的book元素
 rst = html.xpath('//book[@category="sport"]')
 print(type(rst))
 print(rst)

@@ -1,4 +1,3 @@
-
 from urllib import request
 
 # 导入pythopn ssl处理模块

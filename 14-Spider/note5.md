@@ -1,6 +1,7 @@
 # scrapy-shell
-- https://segmentfault.com/a/1190000013199636?utm_source=tag-newest
-- shell 
+
+- "https://segmentfault.com/a/1190000013199636?utm_source=tag-newest"
+- shell
 - 启动
 	- Linux： ctr+T,打开终端，然后输入scrapy shell "url:xxxx"
 	- windows: scrapy shell "url:xxx"
