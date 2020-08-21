@@ -8,7 +8,6 @@ cookie = cookiejar.CookieJar()
 cookie_handler = request.HTTPCookieProcessor(cookie)
 # 创建http请求管理器
 http_handler = request.HTTPHandler()
-
 # 生成https管理器
 https_handler = request.HTTPSHandler()
 
