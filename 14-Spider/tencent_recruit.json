@@ -1,62 +1,62 @@
 [
     {
-        "category_name": "技术",
-        "location_name": "广州",
-        "recruit_post_name": "WXG03-微信小程序&公众号前端开发工程师（广州）",
-        "responsibility": "负责微信小程序与公众号两大开放平台运营体系的建设，包括但不限于：\n1、海量运营安全系统、基础组件的建设；\n2、对C端、对B端的业务功能开发。"
-    },
-    {
-        "category_name": "销售、服务与支持",
-        "location_name": "深圳",
-        "recruit_post_name": "23518-快手渠道移动游戏合作商务",
-        "responsibility": "1、负责对接快手渠道，与渠道建立稳定合作关系。独立开展基础商务工作；\n2、负责梳理与快手团队的整体业务流程，协调推动内外部团队共同落地；\n3、关注并及时、准确快手渠道产品合作动态，了解产品发行效果，反馈内部进行策略调整；\n4、监控及记录产品在渠道的资源和推荐位置，理清渠道资源申请及运营规则，协调资源达成游戏分发目标；\n5、拓展渠道更多流量入口，并试点新型合作模式；\n6、协助运营推进产品运营过程中的突发事件内外的决策和处理；"
-    },
-    {
-        "category_name": "技术",
-        "location_name": "广州",
-        "recruit_post_name": "WXG03-微信小程序&公众号后台开发工程师（广州） ",
-        "responsibility": "负责微信小程序与公众号两大开放平台运营体系的建设，包括但不限于：\n1、海量运营安全系统、基础组件的建设\n2、对C端、对B端的业务功能开发\n\n"
-    },
-    {
         "category_name": "产品",
-        "location_name": "上海",
-        "recruit_post_name": "32032-AAA网游系统策划（上海）",
-        "responsibility": "负责游戏核心系统的设计，包括但不限于局外成长系统、社交系统、商业化系统、匹配系统等;\n负责推动游戏系统的实现及验证，并为最终的系统体验负责，包括:\n消化、落实制作人的概念设计;\n撰写策划需求案，包含 规则、流程、交互、数据格式、测试需求等;\n与程序、美术沟通协调开发内容，并最终验收;\n跟进系统后续的运营维护、效果分析、调优改进。"
-    },
-    {
-        "category_name": "产品",
-        "location_name": "广州",
-        "recruit_post_name": "WXG03-公众平台数据运营（广州）",
-        "responsibility": "负责构建帐号、文章、用户的画像数据，以用于各场景（监管，推荐等）精细化运营； \n负责制定运营相关数据指标，用数据驱动运营事项；\n负责数据开放，与跟各业务的数据合作；\n建立内部数据运营流程。"
+        "location_name": "北京",
+        "recruit_post_name": "23671-企鹅号策略产品经理（特征能力方向）",
+        "responsibility": "1.深刻理解信息流产品内容，对内容质量敏感，负责制定质量标准、建设及优化内容质量评价体系；\n2.熟悉内容特征算法策略，协调AI研发团队共同建设内容特征体系；\n3.持续完善质量评估流程及标准，定期进行效果评估和反馈，及时发现问题并推进解决；\n4.善于寻找产品极限，优化低质及优质内容推荐策略，提升产品调性。\n"
     },
     {
         "category_name": "技术",
-        "location_name": "深圳",
-        "recruit_post_name": "27216-企业征信-风险模型资深工程师",
-        "responsibility": "1、负责企业征信策略和模型的开发，重点关注个人和小微企业的信用评分、欺诈风险评级，以及信贷类产品贷后行为评分、催收评分等不同场景不同客群的风险管理工作；\n2、负责建立并完善信贷类产品的风险政策与风控流程体系，并定期监控、评估、优化，对信贷类产品的风控指标负责；\n3、结合传统金融征信制度和互联网金融的大数据风控创新经验，提升贷款及其他金融产品的风险管理专业能力，打造核心差异化优势。"
+        "location_name": "北京",
+        "recruit_post_name": "CSIG16-地图数据GIS产品经理",
+        "responsibility": "1、产品数据分析评测，识别数据问题，形成产品策划方案，并推动各环节实施落地，改善数据品质\n2、数据工艺流程设计及推进，包括需求分析，数据规格设计，数据制作工艺方案设计改进，并推动落地\n3、数据产品设计，根据应用侧需求及数据产品发展方向，设计数据产品规格及生产工艺"
+    },
+    {
+        "category_name": "技术",
+        "location_name": "广州",
+        "recruit_post_name": "WXG01-微信音视频业务 Android客户端开发工程师（广州）",
+        "responsibility": "微信客户端音视频业务功能开发和体验优化"
     },
     {
         "category_name": "营销与公关",
-        "location_name": "深圳",
-        "recruit_post_name": "35074-CSIG整合营销品牌经理（深圳）",
-        "responsibility": "整合各行业和产品的营销需求，梳理有竞争力的营销组合，通过大型营销项目、实现品牌影响力和业务增长目标的营销组合策略，提升大型营销项目影响力，助力销售效果和创新实践。"
+        "location_name": "广州",
+        "recruit_post_name": "WXG10-211 企业微信内容运营经理（广州）",
+        "responsibility": "1. 主要负责企业微信官方公众号的内容策划、生产、运营，提升产品影响力和用户口碑\n2.结合产品功能、行业趋势、用户洞察，把产品优势转化成对外宣传的内容，助力BD的行业会议、线下线上的对外传播"
     },
     {
-        "category_name": "技术",
+        "category_name": "销售、服务与支持",
+        "location_name": "北京",
+        "recruit_post_name": "WXG10-企业微信客户成功经理（北京- 能源/地产/服务 ）",
+        "responsibility": "负责市场调研，策划并推动相关团队完成行业拓展，产出有价值企业案例和用户洞察，为产品和市场提供策略参考；\r\n负责企业拉活运营，配合市场团队完成大企业攻坚，包括企业拜访接待、实施培训、技术支持等相关工作；\r\n帮助企业开通企业微信，辅助企业管理员完成全员拉活和信息系统接入，能有效整合团队资源和服务商资源；\r\n负责行业推广和功能宣讲，针对行业及 to B业务熟悉，能够出色的策划、组织、实时市场活动。"
+    },
+    {
+        "category_name": "",
         "location_name": "深圳",
-        "recruit_post_name": "22989-腾讯云中间件高级后台开发工程师（深圳、北京、上海）",
-        "responsibility": "负责腾讯云中间件（API网关，服务框架、MQ、ServerLess等）的设计，核心代码开发，系统稳定性开发，性能优化等工作；\r\n根据云计算平台的业务需求，完成腾讯云中间件产品的架构设计和优化工作；\r\n帮忙业务方解决技术难题，用技术推动业务发展。"
+        "recruit_post_name": "21309-腾讯教育子公司-英语线下随材产品经理",
+        "responsibility": "主要职责：根据儿童英语启蒙阶段已有的线上课程大纲和内容，设计线下实体教材、题目\n、益智玩教具等。\n"
     },
     {
         "category_name": "产品",
         "location_name": "深圳",
-        "recruit_post_name": "HY5-手游发行经理 Mobile Game Publishing Manager",
-        "responsibility": "•\tAnalyze global mobile game market publishing opportunities, with a particular focus on casual and midcore games\n•\tIdentify casual and midcore market opportunities both in Asia (China, Japan, Korea, SEA) as well as western overseas markets\n•\tWork closely with Tencent Game overseas partner companies and internal publishing teams to drive collaborative publishing projects, bringing new products into Asian markets and publishing domestic product abroad\n•\tOversee product publishing collaboration and publishing strategy through full product lifecycle \n\n•\t对于全球手游发行机会进行分析，重点关注休闲和中重度品类手游产品\n•\t发掘休闲和中重度手游的新发行机会，覆盖亚洲（中日韩及东南亚）及欧美市场\n•\t与IEG的海外合作厂商以及内部发行团队紧密合作，发掘新的机会，推动手游发行合作项目\n•\t负责整体产品发行对接及发行阶段策略\n"
+        "recruit_post_name": "21309-在线教育-腾讯课堂高级产品运营经理（深圳）",
+        "responsibility": "1、负责站内用户留存体系搭建，有新用户激活，长期用户促活及流失用户召回经验，对平台次日及次周留存等指标负责；\n2、负责完善及更新用户画像，结合用户生命周期，根据场景建立差异化的产品及运营策略，推动平台用户增长；\n3、负责平台资源位系统和消息通道的管理及运营机制的设计。\n"
     },
     {
-        "category_name": "战略与投资",
+        "category_name": "技术",
+        "location_name": "北京",
+        "recruit_post_name": "36811-Go语言开发高级工程师",
+        "responsibility": "参与腾讯新闻客户端后台业务系统设计、开发与实现； 结合需求设计实现安全、稳定、高伸缩性、高性能、易维护、易用性好的业务系统； 根据系统发展，对技术架构不断调整，持续优化。"
+    },
+    {
+        "category_name": "技术",
         "location_name": "深圳",
-        "recruit_post_name": "HY5-投资经理 Investment Manager",
-        "responsibility": "1)Track and analyze global mobile gaming market investment opportunities, with a focus on casual mobile genres\n2)Identify casual mobile developer investment targets; build investment case and assist with due diligence and deal execution\n3)Work closely with Tencent Games’ overseas partner companies to support investment-related initiatives\n4)Explore new business models and opportunities in the casual mobile game space and provide management with strategic advice\n\n1)对国内外手游市场进行扫描和分析，重点关注休闲品类手游厂商\n2)寻找休闲游戏厂商投资机会；准备投资案例，推动尽职调查和投资流程\n3)与腾讯游戏的海外合作伙伴紧密协作，支持合作伙伴实现投资相关目标\n4)探索休闲品类手游领域的新商业模式和机会，为公司管理层提供战略洞察和建议\n"
+        "recruit_post_name": "30934-Web开发工程师",
+        "responsibility": "负责海外腾讯游戏数据BI门户的web前端及中台的设计及开发工作\n负责海外腾讯游戏大数据应用系统，包括推荐系统，广告投放系统等的web前端及中台的设计及开发工作\n参与团队web技术栈的更新及建设"
+    },
+    {
+        "category_name": "技术",
+        "location_name": "深圳",
+        "recruit_post_name": "30934-自然语言处理高级研究员",
+        "responsibility": "负责将前沿NLP技术/成果应用于海外腾讯游戏中的跨语言命名实体识别、细粒度情感分析、语义理解、知识图谱构建等相关场景中； \n负责探索自然语言处理领域的前沿成果，结合未来实际应用场景，提供技术解决方案。"
     }
 ]
