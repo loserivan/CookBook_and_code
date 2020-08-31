@@ -23,3 +23,6 @@ class QqPipline:
         content = json.dumps(dict(item), ensure_ascii=False) + ',\n'
         self.f.write(content)
         return item
+
+    def close_spider(self, spider):
+        self.file.close()

@@ -20,7 +20,7 @@ rsp = requests.get(url, params=kw, headers=headers)
 print(rsp.text)
 print("==" * 10)
 print(rsp.content)
-print("(== * 10)")
+print("==" * 10)
 print(rsp.url)
 print(rsp.encoding)
 print(rsp.status_code)  # 请求返回码

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c483cc1a-1f04-4c5d-89c0-e24e7cb06049" name="Default" comment="models relationship">
-      <change beforePath="$PROJECT_DIR$/14-Spider/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/rsp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-Spider/v14.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/v14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/e16_qq/QQ.json" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/e16_qq/QQ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Spider/e16_qq/e16_qq/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Spider/e16_qq/e16_qq/pipelines.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,6 +261,7 @@
       <workItem from="1597134446692" duration="1000" />
       <workItem from="1597134873833" duration="2000" />
       <workItem from="1597480883454" duration="144000" />
+      <workItem from="1598176637287" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="By LiuYing">
       <created>1518422472646</created>

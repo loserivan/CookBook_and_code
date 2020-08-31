@@ -1,6 +1,7 @@
 from urllib import request, parse
 import time
 import random
+import json
 '''
 破解有道词典
 V2
@@ -59,6 +60,16 @@ def getBv():
     bv = getMD5(ua)
 
     return bv
+
+
+def fanyi_parse(html):
+    data_json = json.loads(html)
+    try:
+        items = data_json['smartResult']['entries']
+        for item in items:
+            print(item)
+    except Exception:
+        print('请输入正确的单词!')
 
 
 def youdao(key):
@@ -122,8 +133,12 @@ def youdao(key):
     rsp = request.urlopen(req)
 
     html = rsp.read().decode()
-    print(html)
+    fanyi_parse(html)
 
 
 if __name__ == '__main__':
-    youdao("code")
+    while True:
+        key = input('请输入单词(q退出)：')
+        if key == 'q':
+            break
+        youdao(key)
