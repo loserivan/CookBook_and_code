@@ -32,7 +32,11 @@ for mulu in mulus:
             rows.append(content)
 
 head = ['title', 'box_title', 'href', 'date']
-with open('guichuideng.csv', 'a', newline='') as f:
+# windows系统下新文件默认GBK格式写入,
+# 常见编码问题 乱码, 或报错error:'gbk' codec can't encode
+# 打开文件时设置参数encoding='utf8'可解决
+# 写入csv中间隔一行空行问题, 设置参数newline=''可解决
+with open('guichuideng.csv', 'a', newline='', encoding='utf8') as f:
     f_csv = csv.writer(f)
     f_csv.writerow(head)
     f_csv.writerows(rows)
