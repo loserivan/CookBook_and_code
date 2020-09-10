@@ -10,6 +10,7 @@ import json
 import hashlib
 import time
 import random
+import os
 
 
 class Ximalaya:
@@ -56,7 +57,9 @@ class Ximalaya:
         '''
         获取分类清单
         '''
-        categories = self.category_page().xpath('//a[@data-code]/text()')
+        url = self.base_url + 'yinyue/'
+        html = etree.HTML(self.get_html(url))
+        categories = html.xpath('//a[@data-code]/text()')
 
         print('音乐分类列表:')
         for category in categories:
@@ -128,18 +131,23 @@ class Ximalaya:
                 except Exception:
                     print('获取下载URL失败!')
 
-                self.download_album(muisc_name, download_url)
+                self.download_album(album_title, muisc_name, download_url)
 
-    def download_album(self, muisc_name, download_url):
+    def download_album(self, album_title, muisc_name, download_url):
         '''
         下载专辑全部歌曲
         '''
         print('正在下载"{}"......'.format(muisc_name))
         # rsp = requests
         print('URL: {}'.format(download_url))
+        # 创建专辑文件夹
+        dir = 'D:/Ximalayadownload/music/' + album_title
+        if os.path.exists(dir):
+            pass
+        else:
+            os.mkdir(dir)
         try:
-            request.urlretrieve(download_url,
-                                'D:/Ximalayadownload/music/' + muisc_name)
+            request.urlretrieve(download_url, dir + '/' + muisc_name)
             print('下载完成!')
         except Exception:
             print('下载失败......')
@@ -196,18 +204,20 @@ def main():
             break
 
         x = Ximalaya(music_category)
-        # x.get_album_info
-        # print('---' * 20)
-        # print('专辑目录: ')
-        # x.get_album_title()
-        # print('---' * 20)
+        x.get_album_info
+        print('---' * 20)
+        print('专辑目录: ')
+        x.get_album_title()
+        print('---' * 20)
 
         album_title = input('输入专辑标题进行下载(q): ')
 
         if album_title == 'q':
             break
-
-        x.parse_info(album_title)
+        try:
+            x.parse_info(album_title)
+        except Exception as e:
+            print(e)
 
 
 if __name__ == '__main__':
