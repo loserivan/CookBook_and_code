@@ -37,7 +37,10 @@ class MeijuSpider(scrapy.Spider):
                 item['tv'] = ""
 
             item['state'] = movie.xpath('./span/font/text()').extract()[0]
-            item['time'] = movie.xpath('./div/font/text()').extract()[0]
+            try:
+                item['time'] = movie.xpath('./div/font/text()').extract()[0]
+            except:
+                item['time'] = movie.xpath('./div[last()]/text()').extract()[0]
 
             # item通过yield返回
             yield item

@@ -12,13 +12,12 @@ driver = webdriver.Chrome()
 driver.get(url)
 
 # 向下滚动10000像素
-js = 'document.body.scrollTop=10000'
-time.sleep(3)
-
+js = 'document.body.scrollTop=10000;'
+time.sleep(5)
 driver.save_screenshot('douban1.png')
 
 driver.execute_script(js)
-time.sleep(3)
+time.sleep(5)
 
 driver.save_screenshot('douban2.png')
 driver.quit()

@@ -20,7 +20,7 @@ class MeijuPipeline:
     且必须返回一个item
     '''
     def __init__(self):
-        self.file = open('meiju.json', 'w')
+        self.file = open('meiju.json', 'w', encoding='utf-8')
 
     def process_item(self, item, spider):
         '''
@@ -37,3 +37,6 @@ class MeijuPipeline:
                       indent=4)
 
         return item
+
+    def close_spider(self, spider):
+        self.file.close()

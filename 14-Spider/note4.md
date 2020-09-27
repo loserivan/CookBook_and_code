@@ -13,7 +13,7 @@
 - 安装
     - 利用pip
 - scrapy概述
-    - 包含各个部件
+    - 包含各个部件 
         - ScrapyEngine： 神经中枢，大脑，核心、
         - Scheduler调度器：引擎发来的request请求，调度器需要处理，然后交换引擎
         - Downloader下载器：把引擎发来的requests发出请求，得到response

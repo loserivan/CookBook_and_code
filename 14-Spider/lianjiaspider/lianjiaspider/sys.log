@@ -1,0 +1,1598 @@
+2020-09-22 11:42:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:18:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:18:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:18:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:19:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:19:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:19:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:19:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:21:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:21:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:23:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:23:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:24:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:24:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/pidou/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:26:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com/zufang/jinniu/> (referer: None)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\utils\python.py", line 347, in __next__
+    return next(self.data)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python 3.8.2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\python 3.8.2\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 42, in parse
+    yield scrapy.Request(url=hrefs, callback=self.detail_parse,
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "D:\python 3.8.2\lib\site-packages\scrapy\http\request\__init__.py", line 63, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got list:
+2020-09-23 16:37:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2354277753324847104.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2342037149949902848.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2394199875350183936.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2356510900229513216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:37:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2354277753324847104.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2342037149949902848.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2394199875350183936.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2606545946577731584.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2356510900229513216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2565740089305481216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2589885050782744576.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18738.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2434535083185807360.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2614403879425032192.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:39:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2595420763415134208.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2539203268509712384.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2610251336976957440.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2612254243981099008.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2615235984375693312.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2612981790822383616.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18734.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2563688771510353920.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2609430119374127104.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2472230890407723008.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2562287814054526976.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2389134484428554240.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2509336474080509952.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2305042859658575872.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2202167673704955904.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2562131641879502848.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2426606173118799872.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/330.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2518631407589261312.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2305598711624892416.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2545607407665414144.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/1217.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536725612027461632.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2356259449087467520.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2566101404544942080.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2521528015507431424.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2543830242657837056.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2564564535021412352.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2373896720150446080.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/14019.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2314492297670033408.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536727055580798976.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18734.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2491885375606767616.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2515278889354264576.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2528067072437518336.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2523724045086621696.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2529775521668546560.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2557251651711287296.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2352919253776613376.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2515278141031981056.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2469436555258249216.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536087019579785216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2605871409096040448.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:40:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2564564535792893952.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2342037149949902848.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2354277753324847104.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2356510900229513216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/13377.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2394199875350183936.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2565740089305481216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:43:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2606545946577731584.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/32378.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18738.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2589885050782744576.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2609430119374127104.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2595420763415134208.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2610251336976957440.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2612254243981099008.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2612981790822383616.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2564564535792893952.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2563688771510353920.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2434535083185807360.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2539203268509712384.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2605871409096040448.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536727055580798976.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2515278141031981056.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2562287814054526976.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2562131641879502848.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2523724045086621696.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2426606173118799872.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2389134484428554240.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536087019579785216.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2529775521668546560.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2536725612027461632.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2518631407589261312.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2314492297670033408.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18734.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2566101404544942080.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/330.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2528067072437518336.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2373896720150446080.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2543830242657837056.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2521528015507431424.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/14019.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2545607407665414144.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/1217.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2356259449087467520.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2564564535021412352.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2515278889354264576.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2305598711624892416.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2305042859658575872.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2491885375606767616.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2557251651711287296.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2202167673704955904.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2509336474080509952.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2469436555258249216.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2472230890407723008.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/494.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2352919253776613376.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//apartment/18734.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2614403879425032192.html> (referer: https://cd.lianjia.com/zufang/pidou/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
+2020-09-23 16:45:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://cd.lianjia.com//zufang/CD2615235984375693312.html> (referer: https://cd.lianjia.com/zufang/jinniu/)
+Traceback (most recent call last):
+  File "D:\python 3.8.2\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Ivan\课程讲义\14-Spider\lianjiaspider\lianjiaspider\spiders\lianjia.py", line 55, in detail_parse
+    verification_code = verification_codes[0].split(': ')[1]
+IndexError: list index out of range
